@@ -1,0 +1,48 @@
+body {
+    background: #d2d2c1;
+    font: 16px Arial, Helvetica;
+}
+
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+
+    padding: 5px;
+}
+
+#principal {
+
+    width: 900px;
+
+
+}
+
+#menu {
+    background: #c5c5b2;
+
+    padding: 15px;
+}
+
+#conteudo {
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+
+#chopper {
+    width: 900px;
+}
+
+#rodape {
+    text-align: center;
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
+
+.img-traficante {
+    border: 10px solid #c3c3ae;
+}
