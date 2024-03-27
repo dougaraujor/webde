@@ -1,0 +1,47 @@
+/* Seletor Universal */
+/* * {
+    border: 1px solid red;
+} */
+
+/* Seletor de texto */
+/* Somente os elementos h1,h2,h3 {} */
+/* h1 {
+    color: red;
+} */
+
+/* Seletor de classe */
+/* Seleciona um elemento cujo atributo class tem o valor especificado depois do ponto */
+/* .verde {
+    color: green;
+} */
+
+/* p.verde { */
+    /* Dese jeito o seletor apenas funcionara em paragrafos,.*/
+    /* color: green;
+} */
+
+/* Seletor de filho - Seleciona um elemento que é filho direto de outro */
+/* li>a {
+    color: red; */
+    /* Basicamente vai selecionar apenas o tag <a> dentro de qualquer <li> */
+/* } */
+
+/* Seletor de descendente -> seleciona um elemento que é descendente de outro elemento especificado (e nao apenas filho direto desse elemento) */
+/* p a {
+    color: red; */
+    /* Seleciona quaisquer elementos <a> que residem dentro de outro elemento <p> mesmo se houver outros filhos aninhados */
+
+
+/* } */
+
+/* Seletor de irmão adjacente -> Seleciona um elemento que é o irmao proximo de outro */
+/* h1+p {
+    color: red; */
+    /* Seleciona o primeiro elemento <p> depoois de qualquer elemento <h1> mas não outros elementos <p> */
+/* } */
+
+/* Seletor de irmão geral -> seleciona um elemento que é um irmao de outro, embora ele nao precise ser o elemento diretamente precedente */
+/* h1~p {
+    color: black; */
+    /* Se houvesse dois elementos <p> que fossem irmãos de um  elemento <h1>, essa regra se aplicaria para os dois  */
+/* } */
